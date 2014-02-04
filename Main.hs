@@ -1,9 +1,10 @@
 import Test
 import System.Exit
 
+import GildedRoseTest
 
-mainTests = []
 
+mainTests = tests
 
 main = handle $ runTests mainTests
        where handle result@(Fail msgs) = do
