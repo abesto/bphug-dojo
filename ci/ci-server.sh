@@ -1,4 +1,5 @@
 #!/bin/sh
+# Start an rsync server and build, test when it gets changes
 
 workspace=/tmp/bphug-ci-server
 

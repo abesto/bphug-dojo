@@ -1,9 +1,6 @@
 #!/bin/sh
+# Sync stuff to rsync://$1/bphug when anything changes
 
-##
-# Keep local path in sync with remote path on server.
-# Ignore .git metadata.
-#
 remote=$1
 
 rsync -viru --delete . rsync://$remote/bphug

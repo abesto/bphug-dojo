@@ -1,9 +1,4 @@
 #!/bin/bash
+# build, test locally when something changes here
 
 fswatch . ./ci/ci-worker.sh
-
-#while true;
-#do
-#	sleep 1
-#	./ci-worker.sh
-#done	

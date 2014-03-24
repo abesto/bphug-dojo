@@ -1,4 +1,7 @@
 #!/bin/bash
+# Build, test application. Will print the compile error and a red "ERROR" if any,
+# the first failing test and a yellow "FAIL" if there's a failing test,
+# or a green "PASS" if all is well.
 
 figletfont=banner3
 
