@@ -4,7 +4,7 @@ import System.Exit
 import GildedRoseTest
 
 
-mainTests = tests
+mainTests = gildedRoseTests
 
 main = handle $ runTests mainTests
        where handle result@(Fail msgs) = do
