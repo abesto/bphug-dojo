@@ -4,10 +4,10 @@ import GildedRose
 import Test
 
 testQualityOf :: Item -> Quality
-testQualityOf i = quality (ageItem i)
+testQualityOf = quality . ageItem
 
 testSellInOf :: Item -> Integer
-testSellInOf i = sellIn (ageItem i)
+testSellInOf = sellIn . ageItem
 
 -- Base case
 standardItem = Item "testItem" 5 5
