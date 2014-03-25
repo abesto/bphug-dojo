@@ -16,7 +16,6 @@ sellInDecreasesByOne = Test (testSellInOf standardItem == 4) "An item with quali
 
 sellInReachedItem = Item "testItem" 0 5
 sellInReachedSellInRemainsZero = Test (testSellInOf sellInReachedItem == 0) "The sellIn value cannot go below 0"
-sellInReachedAndFullyDegraded = Test (testSellInOf sellInReachedItem == 0) "The sellIn value cannot go below 0 even if quality is 0"
 
 -- Step 1 "Once the sellIn date has passed, Quality degrades twice as fast"
 sellInReachedQualityDegradesFaster = Test (testQualityOf sellInReachedItem == 3) "The quality of an item that already perished degrades twice as fast"
