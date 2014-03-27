@@ -59,7 +59,6 @@ backStagePassDegradesAfterConcert = Test (testQualityOf backStagePassAfterConcer
 gildedRoseTests = [qualityDecreasesByOne,
                   sellInDecreasesByOne,
                   sellInReachedSellInRemainsZero,
-                  sellInReachedAndFullyDegraded,
                   sellInReachedQualityDegradesFaster,
                   fullyDegraded,
                   almostDegradedAndReachedSellIn,
@@ -67,8 +66,9 @@ gildedRoseTests = [qualityDecreasesByOne,
                   agedBrieReachedSellInQualityIncreases,
                   veryAgedBrieDoesNotIncreaseQuality,
                   sulfurasDontExpire,
-                  sulfurasDontDegrade,
-                  backStagePassLongBefore,
-                  backStagePass10DaysBefore,
-                  backStagePass5DaysBefore,
-                  backStagePassDegradesAfterConcert]
+                  sulfurasDontDegrade
+                  --backStagePassLongBefore,
+                  --backStagePass10DaysBefore,
+                  --backStagePass5DaysBefore,
+                  --backStagePassDegradesAfterConcert
+                  ]
